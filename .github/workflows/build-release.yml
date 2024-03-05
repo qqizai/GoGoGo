@@ -15,11 +15,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # https://github.com/marketplace/actions/checkout
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # 设置 JDK
       - name: set up JDK 17
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           java-version: '17'
           distribution: 'adopt'
@@ -46,7 +46,7 @@ jobs:
       # https://github.com/marketplace/actions/auto-changelog
       # require commit format are "type(category): description [flag]"
       - name: Make Changelog
-        uses: ardalanamini/auto-changelog@v4.0.0
+        uses: ardalanamini/auto-changelog@v4.0.1
         id  : changelog
         with:
           github-token            : ${{ github.token }}

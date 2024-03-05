@@ -21,15 +21,21 @@
 </div>
 
 ## 简介
-&emsp;&emsp;影梭是一个基于 Android 调试 API + 百度地图实现的定位修改工具，并且同时实现了一个可以自由控制移动的摇杆。使用影梭，不需要 ROOT 权限就可以随意修改自己的当前位置以及模拟移动。
+&emsp;&emsp;影梭是一个基于 Android 调试 API + 百度地图及定位 SDK 实现的安卓定位修改工具，并且同时实现了一个可以自由控制移动的摇杆。使用影梭，不需要 ROOT 权限就可以随意修改自己的当前位置以及模拟移动。
 
 1. 源码仓库：[Github](https://github.com/ZCShou/GoGoGo)（推荐）、[Gitee](https://gitee.com/itexp/gogogo)（镜像）
 2. 下载地址：[Github](https://github.com/ZCShou/GoGoGo/releases)（推荐）、[Gitee](https://gitee.com/itexp/gogogo/releases)（镜像）
 
-## 警告
-&emsp;&emsp;**最近，发现有网友直接白嫖改名（标枪定位）后添加广告（除了加广告，功能没有任何改变），但是，没有按照 GPLv3 协议的要求进行开源（我已经联系过该网友进了提醒，但并没有收到回复），在此提醒：**
+## 警告一
+&emsp;&emsp;**最近，有网友直接白嫖影梭后改名为 ==标枪定位==，然后添加广告（除了加广告，功能没有任何改变），但是，没有按照 GPLv3 协议的要求进行开源（我已经联系过该网友进了提醒，但并没有收到回复），在此提醒：**
 1. **开源 ≠ 白嫖，请遵循开源协议**
-2. **开源不易，且行且珍惜**
+2. **GPL 的法律效力在国内相关诉讼案例很多，请自行搜索，权衡利弊。影梭保留追究相关侵权人员法律责任的所有权利！**
+3. **开源不易，且行且珍惜**
+
+## 警告二
+&emsp;&emsp;**最近，有很多人将影梭用在校园运动类 APP（包括但不限于闪动校园、TakeTwo、运动世界校园等）中作弊，开发者也收到了很多人提问为何影梭定位并不起作用或者寻求对影梭的改进，在此提醒：**
+1. **影梭不支持任何校园运动类 APP 的作弊行为**
+2. **影梭开发者也不赞同采用任何形式在校园运动中作弊**
 
 ## 背景
 &emsp;&emsp;之前在玩一款 VR 游戏：一起来捉妖。为了省事，就想有没有可以更改位置的 APP。经过一番摸索发现确实有不少可以修改位置的 APP。但是，绝大多数这种 APP 都是收费的，而且贼贵！
@@ -97,3 +103,5 @@ A：Gradle 使用的 java 版本与 Android Studio 使用的不一致。Gradle �
 
 ## 许可证
 GPL-3.0-only © ZCShou
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FZCShou%2FGoGoGo.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2FZCShou%2FGoGoGo?ref=badge_large&issueType=license)
